@@ -1,0 +1,62 @@
+.movieCard {
+  display: flex;
+  padding: 25px;
+}
+
+.genreList {
+  list-style: none;
+  display: flex;
+  margin: -10px;
+  padding: 0;
+}
+.genreListItem {
+  margin: 10px;
+}
+.addInfo {
+  padding-left: 30px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.addInfoName {
+  font-size: 18px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.addInfoName:hover {
+  color: #ff6b08;
+}
+
+.addInfoTitle {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.btn {
+  margin-left: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #5e5e5e;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #ff6b08;
+}
+
+.descr {
+  padding: 25px;
+  max-width: 750px;
+}
+
+.error {
+  padding: 25px;
+}

@@ -1,0 +1,10 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.castListItem {
+  margin: 15px;
+}
+.notFound {
+  padding: 20px;
+}
